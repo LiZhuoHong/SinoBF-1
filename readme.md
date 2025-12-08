@@ -7,7 +7,7 @@ In this study, we present the first building-level functional map of China, cove
 
 * This project contains the complete protocol for downloading the building-level map products and reproducing the (1) building-level mapping and (2) multi-dimensional built environment analysis process.
 
-Contact me at ashelee@whu.edu.cn
+If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohong Li)
 * [**My homepage**](https://lizhuohong.github.io/lzh/)
   
 * This code should be run in a Python environment.
@@ -204,4 +204,5 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
