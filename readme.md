@@ -13,7 +13,7 @@ If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohon
 * This code should be run in a Python environment.
 
 ## The first building-level functional map of urban China
-### The complete map product and user guide are released at: [**https://doi.org/10.6084/m9.figshare.29262584.v1**](https://doi.org/10.6084/m9.figshare.29262584.v1)
+### The complete map product and user guide are released at: [**https://doi.org/10.5281/zenodo.17844789**](https://doi.org/10.5281/zenodo.17844789)
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Study_area.png" width="70%">
 This version of the data includes (1) Building-level functional maps of 109 Chinese cities, and (2) In-situ validation point sets. The building-level functional maps of 109 Chinese cities are organized in the ESRI Shapefile format, which includes five components: “.cpg”, “.dbf”, “.shx”, “.shp”, and “.prj” files. These components are stored in “.zip” files. Each city is named “G_P_C.zip,” where “G” explains the geographical region (south, central, east, north, northeast, northwest, and southwest of China) information, “P” explains the provincial administrative region information, and “C” explains the city name.
 
@@ -204,5 +204,6 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
 
