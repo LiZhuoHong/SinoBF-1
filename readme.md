@@ -1,7 +1,7 @@
 # Satellite Mapping of Every Building’s Function in Urban China Reveals Deep Built Environment Diesparities
 <!-- **Author: Zhuohong Li, Linxin Li, Ting Hu, Mofan Cheng, Wei He, Tong Qiu, Liangpei Zhang, and Hongyan Zhang** -->
 <!-- ****Affiliation: Duke University, Wuhan University, Nanjing University of Information Science and Technology, and China University of Geosciences**** -->
-In this study, we present a building-level functional map of China, covering 110 million individual buildings across 109 cities using 69 terabytes of multi-modal satellite imagery. The national-scale map is validated by government reports and 5,280,695 observation points, showing strong agreement with external benchmarks. This enables the first nationwide, multi-dimensional assessment of inequality in the built environment across city tiers, geographical regions, and intra-city zones.
+In this study, we present a building-level functional map of China, covering 110 million individual buildings across 109 cities using 69 terabytes of multi-modal satellite imagery. The national-scale map is validated by government reports and 5,280,695 observation points, showing strong agreement with external benchmarks. This enables a nationwide, multi-dimensional assessment of inequality in the built environment across city tiers, geographical regions, and intra-city zones.
 
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Background.png" width="70%">
 
@@ -12,7 +12,7 @@ If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohon
   
 * This code should be run in a Python environment.
 
-## The first building-level functional map of urban China
+## SinoBF-1: the national-scale building-level functional map of urban China
 ### The complete map product and user guide are released at: [**https://doi.org/10.5281/zenodo.17844789**](https://doi.org/10.5281/zenodo.17844789)
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Study_area.png" width="70%">
 This version of the data includes (1) Building-level functional maps of 109 Chinese cities, and (2) In-situ validation point sets. The building-level functional maps of 109 Chinese cities are organized in the ESRI Shapefile format, which includes five components: “.cpg”, “.dbf”, “.shx”, “.shp”, and “.prj” files. These components are stored in “.zip” files. Each city is named “G_P_C.zip,” where “G” explains the geographical region (south, central, east, north, northeast, northwest, and southwest of China) information, “P” explains the provincial administrative region information, and “C” explains the city name.
@@ -204,6 +204,7 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
 
 
