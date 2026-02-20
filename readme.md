@@ -5,11 +5,19 @@ In this study, we present a building-level functional map of China, covering 110
 
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Background.png" width="70%">
 
-* This project contains the complete protocol for downloading the building-level map products and reproducing the (1) building-level mapping and (2) multi-dimensional built environment analysis process.
-
-If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohong Li)
+The Paraformer is accepted by **Nature Communications** 2026!
+* [**Paper**](https://www.nature.com/articles/s41467-026-69589-5)
 * [**My homepage**](https://lizhuohong.github.io/lzh/)
+  If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohong Li)
   
+Our previous works:
+* [**Paraformer**](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Learning_without_Exact_Guidance_Updating_Large-scale_High-resolution_Land_Cover_Maps_CVPR_2024_paper.pdf): accepted by CVPR 2024 (highlight), weakly supervised framework for high-resolution mapping.[**Code**](https://github.com/LiZhuoHong/Paraformer/)
+* [**SegLand**](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Li_Generalized_Few-Shot_Meets_Remote_Sensing_Discovering_Novel_Classes_in_Land_CVPRW_2024_paper.pdf): accepted by CVPRW 2024 (Oral) and won 1st place in OpenEarthMap Challenge, discovering novel classes in land-cover mapping.[**Code**](https://github.com/LiZhuoHong/SegLand)
+* [**L2HNet V1**](https://www.sciencedirect.com/science/article/abs/pii/S0924271622002180): accepted by ISPRS P&RS in 2022. The low-to-high network for HR mapping using LR labels.
+* [**SinoLC-1**](https://essd.copernicus.org/articles/15/4749/2023/): accepted by ESSD in 2023, the first 1-m resolution national-scale land-cover map of China.[**Data**](https://zenodo.org/record/7821068)
+* [**BuildingMap**](https://ieeexplore.ieee.org/document/10641437): accepted by IGARSS 2024 (Oral), To identify every building's function in urban area.[**Data**](https://github.com/LiZhuoHong/BuildingMap/)
+
+* This project contains the complete protocol for downloading the building-level map products and reproducing the (1) building-level mapping and (2) multi-dimensional built environment analysis process.
 * This code should be run in a Python environment.
 
 ## SinoBF-1: the national-scale building-level functional map of urban China
@@ -204,6 +212,7 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
 
 
