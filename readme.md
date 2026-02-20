@@ -1,4 +1,4 @@
-# Satellite Mapping of Every Building’s Function in Urban China Reveals Deep Built Environment Diesparities
+# Satellite Mapping of Every Building’s Function in Urban China Reveals Deep Built Environment Disparities
 <!-- **Author: Zhuohong Li, Linxin Li, Ting Hu, Mofan Cheng, Wei He, Tong Qiu, Liangpei Zhang, and Hongyan Zhang** -->
 <!-- ****Affiliation: Duke University, Wuhan University, Nanjing University of Information Science and Technology, and China University of Geosciences**** -->
 In this study, we present a building-level functional map of China, covering 110 million individual buildings across 109 cities using 69 terabytes of multi-modal satellite imagery. The national-scale map is validated by government reports and 5,280,695 observation points, showing strong agreement with external benchmarks. This enables a nationwide, multi-dimensional assessment of inequality in the built environment across city tiers, geographical regions, and intra-city zones.
@@ -9,6 +9,7 @@ The Paraformer is accepted by **Nature Communications** 2026!
 * [**Paper**](https://www.nature.com/articles/s41467-026-69589-5)
 * [**My homepage**](https://lizhuohong.github.io/lzh/)
   If you have any questions or requests, contact me at ashelee@whu.edu.cn (Zhuohong Li)
+
   
 Our previous works:
 * [**Paraformer**](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Learning_without_Exact_Guidance_Updating_Large-scale_High-resolution_Land_Cover_Maps_CVPR_2024_paper.pdf): accepted by CVPR 2024 (highlight), weakly supervised framework for high-resolution mapping.[**Code**](https://github.com/LiZhuoHong/Paraformer/)
@@ -17,9 +18,9 @@ Our previous works:
 * [**SinoLC-1**](https://essd.copernicus.org/articles/15/4749/2023/): accepted by ESSD in 2023, the first 1-m resolution national-scale land-cover map of China.[**Data**](https://zenodo.org/record/7821068)
 * [**BuildingMap**](https://ieeexplore.ieee.org/document/10641437): accepted by IGARSS 2024 (Oral), To identify every building's function in urban area.[**Data**](https://github.com/LiZhuoHong/BuildingMap/)
 
-* This project contains the complete protocol for downloading the building-level map products and reproducing the (1) building-level mapping and (2) multi-dimensional built environment analysis process.
-* This code should be run in a Python environment.
 
+  
+This project contains the complete protocol for downloading the building-level map products and reproducing the (1) building-level mapping and (2) multi-dimensional built environment analysis process.
 ## SinoBF-1: the national-scale building-level functional map of urban China
 ### The complete map product and user guide are released at: [**https://doi.org/10.5281/zenodo.17844789**](https://doi.org/10.5281/zenodo.17844789)
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Study_area.png" width="70%">
@@ -212,6 +213,7 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
 
 
