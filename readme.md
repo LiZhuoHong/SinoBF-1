@@ -1,4 +1,4 @@
-# Satellite Mapping of Every Building’s Function in Urban China Reveals Deep Built Environment Disparities
+# SinoBF-1: Satellite Mapping of Every Building’s Function in Urban China Reveals Deep Built Environment Disparities
 <!-- **Author: Zhuohong Li, Linxin Li, Ting Hu, Mofan Cheng, Wei He, Tong Qiu, Liangpei Zhang, and Hongyan Zhang** -->
 <!-- ****Affiliation: Duke University, Wuhan University, Nanjing University of Information Science and Technology, and China University of Geosciences**** -->
 In this study, we present a building-level functional map of China, covering 110 million individual buildings across 109 cities using 69 terabytes of multi-modal satellite imagery. The national-scale map is validated by government reports and 5,280,695 observation points, showing strong agreement with external benchmarks. This enables a nationwide, multi-dimensional assessment of inequality in the built environment across city tiers, geographical regions, and intra-city zones.
@@ -213,6 +213,7 @@ The final shapefile result will be saved in the `./Building_mapping_02_post_proc
 * An example of the input data and the produced results of building functional maps.
 <img src="https://github.com/LiZhuoHong/Paraformer/blob/main/Fig/Mapping_result3.png" width="70%">
   
+
 
 
 
